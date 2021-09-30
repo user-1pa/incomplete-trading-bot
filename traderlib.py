@@ -21,8 +21,8 @@ class Trader:
         self.thName = threading.currentThread().getName()
 
         try:
-            self.API_KEY = CK9X7YAMY3LFFKQJ2814
-            self.API_SECRET_KEY = 98xiRZTAtObgB8tpSOZJE1RKMJFaD2Q6EacCZqAO
+            self.API_KEY = CKQ3MSO1FE5KHAG3U0ST
+            self.API_SECRET_KEY = klwrNGZ955wh6gTy1kF1cj4d8xokreTe6exoN8HJ
             self.ALPACA_API_URL = "https://paper-api.alpaca.markets"
             self.alpaca = tradeapi.REST(self.API_KEY, self.API_SECRET_KEY, self.ALPACA_API_URL, api_version='v2') # or use ENV Vars
 
