@@ -4,9 +4,9 @@
 # It is explained at the guide you can find at www.theincompleteguide.com
 # You will also find improvement ideas and explanations
 
-from stocklib import *
-from traderlib import *
-from other_functions import *
+from stocklib import stocklib
+from traderlib import traderlib
+from other_functions import other_functions
 import threading, os, logging
 from datetime import datetime
 import gvars
