@@ -233,7 +233,7 @@ class Trader:
                     self._L.info(self.order)
                     return True
 
-                elif type is 'market':
+                elif type == 'market':
                     self.order = self.alpaca.submit_order(
                                             side=side,
                                             qty=qty,
